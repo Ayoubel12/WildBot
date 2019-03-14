@@ -1,1 +1,1 @@
-# WildBot
+worker: node bot.js
