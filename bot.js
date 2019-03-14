@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by n3k4a & Baron','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: n3k4a & Hosam | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' Wild Bot™ by Hard Gamer','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: Hard Gamer'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -549,8 +549,8 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Premium Bot :heart: جميع الحقوق محفوظة 2018 لــبوت')
-      .addField('شكرا لك لاستخدامك ل بروميوم بوت', `https://modest-lewin-146a75.netlify.com`)
+      .setFooter('© Wild Bot :heart: جميع الحقوق 2019 محفوظة لبوت')
+      .addField('شكرا لاسخدامك  ويلد بوت', `https://discordapp.com/api/oauth2/authorize?client_id=554990222254014466&permissions=0&scope=bot`)
   message.author.send({embed});
 
  }
@@ -588,9 +588,9 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setTitle('Click here')
-      .setURL(' https://discord.gg/ZnPDHaA ')
+      .setURL(' https://discord.gg/YWs8GK ')
       .setColor("RANDOM")
-      .setFooter('© Premium Bot :heart: جميع الحقوق محفوظة 2018 لــبوت')  
+      .setFooter('© Wild Bot :heart: جميع الحقوق 2019 محفوظة لبوت')  
       .addField('سيرفر الدعم الفني', ` https://discord.gg/ZnPDHaA  `)
   message.author.send({embed});
 
@@ -715,7 +715,7 @@ client.on('message', message => {
             .addField('``الايدي تبعي ☑️``' , `[ ${client.user.id} ]` , true)
 			      .addField('``امر تشغيلي ➡️``' , `[ - ]` , true)
 			      .addField('``الغه التي  تبرمجت بها ☎️``' , `[ Java Script ]` , true)
-			      .setFooter('By | 🔥n3k4a & baron🔥 ')
+			      .setFooter('By | 🔥Hard Gamer🔥 ')
     })
 }
 });
